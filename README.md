@@ -57,6 +57,11 @@ The airframe was designed in Fusion 360 and printed in two materials. A rigid PL
 
 ## Bring-up and validation
 
+| Initial USB-C power-up | USB-only operation |
+|---|---|
+| ![Flight-controller PCB powered over USB-C with the red power LED illuminated](docs/images/pcb-powered-1.png) | ![Flight-controller PCB powered over USB-C with the red power LED and green MCU status LED illuminated](docs/images/pcb-powered-2.png) |
+| First power-up over USB-C: power LED (red) | Firmware running from USB power: power LED (red) and MCU status LED (green) |
+
 1. Inspected the assembled PCB for fabrication and soldering defects.
 2. Verified the power rails before connecting the remaining hardware.
 3. Confirmed USB-C enumeration and firmware communication in Betaflight.
