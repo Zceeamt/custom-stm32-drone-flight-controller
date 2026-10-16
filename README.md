@@ -1,6 +1,6 @@
 # Custom STM32H743 Quadcopter Flight Controller
 
-An end-to-end quadcopter project built around a bespoke four-layer flight-controller PCB, a custom 3D-printed airframe and a four-in-one ESC. The completed aircraft was brought up in Betaflight and successfully flight-tested outdoors.
+An end-to-end quadcopter project built around a bespoke four-layer flight-controller PCB, a custom 3D-printed airframe and a four-in-one ESC. The assembled board was flashed and configured using Betaflight, integrated into the aircraft and successfully flight-tested outdoors.
 
 [View the full interactive project page](https://zceeamt.github.io/#quadcopter)
 
@@ -8,7 +8,7 @@ An end-to-end quadcopter project built around a bespoke four-layer flight-contro
 
 ## Project scope
 
-I was responsible for the electronics, PCB layout, mechanical design, assembly and validation. The project progressed through schematic capture, board layout, manufacturing, soldering, power-rail checks, USB and sensor bring-up, ESC integration, Betaflight configuration and outdoor flight testing.
+I was responsible for the electronics, PCB layout, mechanical design, assembly and validation. The project progressed through schematic capture, board layout, manufacturing, soldering, power-rail checks, USB and sensor bring-up, Betaflight firmware configuration, ESC integration and outdoor flight testing.
 
 ## Flight-controller hardware
 
@@ -64,7 +64,7 @@ The airframe was designed in Fusion 360 and printed in two materials. A rigid PL
 
 1. Inspected the assembled PCB for fabrication and soldering defects.
 2. Verified the power rails before connecting the remaining hardware.
-3. Confirmed USB-C enumeration and firmware communication in Betaflight.
+3. Flashed and configured the assembled flight controller using Betaflight, then confirmed USB-C enumeration and firmware communication.
 4. Compared physical board motion with Betaflight's live attitude model.
 5. Integrated the ESC and mapped each output to the correct motor.
 6. Checked motor direction and propeller orientation after frame integration.
