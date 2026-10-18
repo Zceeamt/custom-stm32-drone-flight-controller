@@ -6,6 +6,11 @@ An end-to-end quadcopter project built around a bespoke four-layer flight-contro
 
 ![Completed quadcopter](docs/images/cover.jpg)
 
+| Firmware running over USB-C | Initial USB-C power-up |
+|---|---|
+| ![Flight-controller PCB powered over USB-C with the red power LED and green MCU status LED illuminated](docs/images/pcb-powered-2.png) | ![Flight-controller PCB powered over USB-C with the red power LED illuminated](docs/images/pcb-powered-1.png) |
+| Power LED (red) and MCU status LED (green) | Power LED (red) |
+
 ## Project scope
 
 I was responsible for the electronics, PCB layout, mechanical design, assembly and validation. The project progressed through schematic capture, board layout, manufacturing, soldering, power-rail checks, USB and sensor bring-up, Betaflight firmware configuration, ESC integration and outdoor flight testing.
@@ -39,6 +44,8 @@ Placement and routing were driven by signal integrity: the crystal sits beside t
 | In2.Cu | 3.3 V power plane |
 | B.Cu | Signal routing |
 
+![KiCad 3D render of the component side](docs/images/kicad-3d-top.jpg)
+
 | Manufactured board | Rotated view |
 |---|---|
 | ![Manufactured PCB](docs/images/pcb-top.jpg) | ![PCB side](docs/images/pcb-side.jpg) |
@@ -52,11 +59,6 @@ The airframe was designed in Fusion 360 and printed in two materials. A rigid PL
 | ![ESC in the frame](docs/images/frame-esc.jpg) | ![Flight controller installed](docs/images/frame-fc.jpg) |
 
 ## Bring-up and validation
-
-| Initial USB-C power-up | USB-only operation |
-|---|---|
-| ![Flight-controller PCB powered over USB-C with the red power LED illuminated](docs/images/pcb-powered-1.png) | ![Flight-controller PCB powered over USB-C with the red power LED and green MCU status LED illuminated](docs/images/pcb-powered-2.png) |
-| First power-up over USB-C: power LED (red) | Firmware running from USB power: power LED (red) and MCU status LED (green) |
 
 1. Inspected the assembled PCB for fabrication and soldering defects.
 2. Verified the power rails before connecting the remaining hardware.
