@@ -44,11 +44,11 @@ Placement and routing were driven by signal integrity: the crystal sits beside t
 | In2.Cu | 3.3 V power plane |
 | B.Cu | Signal routing |
 
-![KiCad 3D render of the component side](docs/images/kicad-3d-top.jpg)
-
 | Manufactured board | Rotated view |
 |---|---|
 | ![Manufactured PCB](docs/images/pcb-top.jpg) | ![PCB side](docs/images/pcb-side.jpg) |
+
+![KiCad 3D render of the component side](docs/images/kicad-3d-top.jpg)
 
 ## Airframe and system integration
 
